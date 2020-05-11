@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>FYLE</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="row align-items-center gap">
+        <div class="col-md-6">
+          <div id="headingGroup">
+            <h1>Looking for a <br />lollipop alternative?</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              <br />
+              industry. Lorem Ipsum has been the industry's standard dummy<br />
+              text ever since the 1500s.
+            </p>
+            <button type="button" class="btn btn-default m-1" id="Primary">
+              Primary CTA
+            </button>
+            <button type="button" class="btn btn-default m-1" id="Secondary">
+              Secondary CTA
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="globe.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container bg1">
+      <h3>This is a heading in<br />two lines</h3>
+      <div class="row justify-content-center">
+        <div class="col-2" id="bgi">
+          <ul class="lorem">
+            <li id="forpad">Lorem ipsum1</li>
+            <li>Lorem ipsum2</li>
+            <li>Lorem ipsum3</li>
+            <li>Lorem ipsum4</li>
+            <li>Lorem ipsum5</li>
+            <li>Lorem ipsum6</li>
+            <li>Lorem ipsum7</li>
+            <li>Lorem ipsum8</li>
+            <li>Lorem ipsum9</li>
+          </ul>
+        </div>
+        <div class="col-2" id="bg">
+          <ul class="tick">
+            <li>lollipop</li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+          </ul>
+        </div>
+        <div class="col-2" id="bg">
+          <ul class="tick">
+            <li>Icecandy</li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+            <li><i class="fa fa-times" id="check2"></i></li>
+            <li><i class="fa fa-times" id="check2"></i></li>
+            <li><i class="fa fa-times" id="check2"></i></li>
+            <li><i class="fa fa-times" id="check2"></i></li>
+            <li><i class="fa fa-check" id="check"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container new">
+      <h4><strong>Compare pricing today!</strong></h4>
+      <p class="sec3">
+        Lorem Ipsum is simply dummy text of the printing and
+        <span id="blue">typesetting.</span>
+      </p>
+      <div class="btn-group">
+        <button id="25serve" style="font-weight: bold;" value="25">
+          25 Serving
+        </button>
+        <button id="50serve" style="font-weight: bold;" value="50">
+          50 Serving
+        </button>
+        <button id="100serve" style="font-weight: bold;" value="100">
+          100 Serving
+        </button>
+        <button id="200serve" style="font-weight: bold;" value="200">
+          200 Serving
+        </button>
+      </div>
+      <br />
+      <br />
+      <div class="toggleBox" id="switch">
+        <div class="toggle">
+          <label for="#togg">Annual &nbsp;&nbsp;</label>
+          <input type="checkbox" id="togg" onclick="calAmount();" />
+          <label for="#togg">&nbsp;&nbsp;Monthly </label>
+          <br />
+          <h6 style="position: relative; left: -82.5px; bottom: 14.5px;">
+            50% off
+          </h6>
+        </div>
+        <div class="row justify-content-center" style="margin-top: 60px;">
+          <div class="col-2" id="inside-tog">
+            <h5>lollipop</h5>
+            <h3 id="one" style="text-align: start; left: 20px;"></h3>
+            <i
+              ><label
+                for="#one"
+                style="
+                  position: relative;
+                  font-size: 16.5px;
+                  color: grey;
+                  top: 38.5px;
+                  left: -22.5px;
+                "
+                >Per month</label
+              ></i
+            >
+            <h4 id="four" style="text-align: start;"></h4>
+          </div>
+          <div class="col-2" id="inside-tog">
+            <h5>Icecandy</h5>
+            <h3 id="two" style="text-align: start; left: 20px;"></h3>
+            <i
+              ><label
+                for="#one"
+                style="
+                  position: relative;
+                  font-size: 16.5px;
+                  color: grey;
+                  top: 38.5px;
+                  left: -22.5px;
+                "
+                >Per month</label
+              ></i
+            >
+            <h4 id="five" style="text-align: start;"></h4>
+          </div>
+          <div class="col-2 scal" id="inside-tog">
+            <h5>
+              Your savings <br />
+              with lollipop
+            </h5>
+            <h3
+              id="three"
+              style="text-align: start; color: #0099ff; left: 20px;"
+            ></h3>
+            <i
+              ><label
+                for="#one"
+                style="
+                  position: relative;
+                  font-size: 15.5px;
+                  color: grey;
+                  top: 38.5px;
+                  left: -22.5px;
+                "
+                >Per month</label
+              ></i
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="new1"
+      id="testimonial"
+      style="position: relative; top: -300px;"
+    >
+      <h3 style="position: relative;">
+        <strong>Here’s what our customers have to say</strong>
+      </h3>
+      <div class="container eco2" style="margin: 0% 20%;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide" id="my-carousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#my-carousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#my-carousel" data-slide-to="1"></li>
+                <li data-target="#my-carousel" data-slide-to="2"></li>
+                <li data-target="#my-carousel" data-slide-to="3"></li>
+              </ol>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="img-box">
+                    <img src="testimonial.png" />
+                  </div>
+                  <div class="col-6 eco">
+                    <p class="para">
+                      <i class="fa fa-quote-left fa-2x"></i>Lorem Ipsum is
+                      simply dummy text of the<br />printing and typesetting
+                      industry. Lorem Ipsum<br />has been the industry's
+                      standard dummy text<br />ever since the 1500s.
+                    </p>
+                    <h5 class="para2"><strong>Raja ram1</strong></h5>
+                    <h6>Tip World</h6>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="testimonial.png" />
+                  </div>
+                  <div class="col-6 eco">
+                    <p class="para">
+                      <i class="fa fa-quote-left fa-2x"></i>Lorem Ipsum is
+                      simply dummy text of the<br />printing and typesetting
+                      industry. Lorem Ipsum<br />has been the industry's
+                      standard dummy text<br />ever since the 1500s.
+                    </p>
+                    <h5 class="para2"><strong>Raja ram2</strong></h5>
+                    <h6>Tip World</h6>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="testimonial.png" />
+                  </div>
+                  <div class="col-6 eco">
+                    <p class="para">
+                      <i class="fa fa-quote-left fa-2x"></i>Lorem Ipsum is
+                      simply dummy text of the<br />printing and typesetting
+                      industry. Lorem Ipsum<br />has been the industry's
+                      standard dummy text<br />ever since the 1500s.
+                    </p>
+                    <h5 class="para2"><strong>Raja ram3</strong></h5>
+                    <h6>Tip World</h6>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="testimonial.png" />
+                  </div>
+                  <div class="col-6 eco">
+                    <p class="para">
+                      <i class="fa fa-quote-left fa-2x"></i>Lorem Ipsum is
+                      simply dummy text of the<br />printing and typesetting
+                      industry. Lorem Ipsum<br />has been the industry's
+                      standard dummy text<br />ever since the 1500s.
+                    </p>
+                    <h5 class="para2"><strong>Raja ram4</strong></h5>
+                    <h6>Tip World</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="myscripts.js"></script>
+  </body>
+</html>
